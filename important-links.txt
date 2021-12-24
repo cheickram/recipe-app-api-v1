@@ -1,0 +1,14 @@
+https://hub.docker.com # search for python
+
+create the dockerfile
+create a folder cold app
+
+run 'sudo docker build .' to build the image
+
+
+then create 'docker-compose.yml' file
+and run 'docker-compose build'
+
+
+
+sudo docker-compose run app sh -c 'django-admin.py startproject appconfig .'
